@@ -12,6 +12,7 @@ else:
 
 """
 #example 
+
 marks = int(input("enter marks : "))
 
 if(marks>=90):
@@ -22,4 +23,3 @@ elif(80> marks >= 70):
     print("C")
 else:
     print("D")
-    
