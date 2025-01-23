@@ -21,3 +21,18 @@ if(str==str1):
 else:
     print(f"{str} is not palindrome")
     """
+
+#WAP to count the number of student with "A" grade in the following tuple 
+grade=input("enter the grade") # Take input as a string of grades
+tuple1= tuple(grade.split()) # Convert the grades into a tuple
+print(tuple1.count("A")) # Count occurrences of "A"
+
+#store the above values in a list & sort them from "A" to "D"
+
+list1 = list(grade.split())
+list1.sort()
+
+print("sorted list : ",list1) 
+
+
+
